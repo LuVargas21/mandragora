@@ -1,0 +1,65 @@
+.headercustom {
+    background-color: #f5c573f4;
+    
+    display: block;
+    position: relative;
+}
+
+.product-table-fb {
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.box-fb {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-name {
+    font-size: 30   px;
+    font-family: 'Zeyada', cursive, sans-serif;
+    text-align: center;
+}
+
+
+.title {
+    padding: 0px;
+    font-size: 40px;
+    font-family: 'BIZ UDPMincho', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    padding: 0px;
+    font-family: 'Zeyada', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    color: #7e2525;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    display: inline;
+}
+
+.linkListaMenu {
+    color: #c5a00a;
+}
+
+.itemListaMenu {
+    display: inline;
+    font-size: 25px;
+}
