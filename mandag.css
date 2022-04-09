@@ -1,8 +1,9 @@
 .header-custom {
     background-image: url(img/fondoheader.jpg);
-    margin-top: 5px;
-    background-size:cover;
-    margin-bottom: 10px;
+    margin-block-start: auto;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
 }
 
 .product-table-fb {
@@ -14,6 +15,8 @@
     align-items: stretch;
     flex-wrap: wrap;
 }
+
+
 
 .box-fb {
     padding: 20px;
@@ -114,7 +117,7 @@
 .conteiner-footer {
     display: flex;
     justify-content: center;
-    background-color: #fbb6f4;
+    background-color: #afd5ae;
     background-size: 40px;
 
 }
@@ -137,7 +140,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content:  center;
+    justify-content: center;
     color: #000000;
 }
 
@@ -172,7 +175,7 @@
 
 }
 
-.title-conteiner {
+.conteiner-title {
     padding: 40px;
     font-size: 30px;
     font-family: 'BIZ UDPMincho', serif;
@@ -193,9 +196,44 @@
 }
 
 .product-name {
-     font-size: 30 px;
+    font-size: 30 px;
     font-family: 'BIZ UDPMincho', serif;
     text-align: center;
 
 }
 
+/* aca comienza servicos.html*/
+
+
+.subtitle3 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 20px;
+    font-weight: 80px;
+    background-color: #7ac477;
+}
+
+.conteiner-paisajismo {
+    display: grid;
+    grid-template-columns: 800px 500px;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+
+ 
+.paragraph1 {
+    justify-content: space-around ;
+    padding: 15px;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 20px;
+}
+
+.conteiner-huertas {
+    display: grid;
+    grid-template-columns: 800px 500px;
+    justify-content: space-around;
+    margin: 30px;
+}
