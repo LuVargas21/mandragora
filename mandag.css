@@ -1,10 +1,12 @@
 .header-custom {
-    background-image: url(img/fondoheader.jpg);
-    margin-block-start: auto;
-    background-size: cover;
-    margin: 0px;
+    background-image: url(img/fondo_algo.jpg);
     padding: 0px;
+    top: 0px;
+    margin-top: 0px;
+    background-size: cover;
+  
 }
+
 
 .product-table-fb {
     color: #000000;
@@ -33,8 +35,10 @@
 
 
 .title {
-    padding: 0px;
+    margin-top: auto;
+    padding: 50px;
     font-size: 60px;
+    margin-bottom: 10px;
     font-family: 'BIZ UDPMincho', serif;
     display: flex;
     justify-content: center;
@@ -43,6 +47,7 @@
 .subtitle {
     font-size: 30px;
     padding: 10px;
+    margin-top: 10px;
     font-family: 'Zeyada', cursive, sans-serif;
     display: flex;
     justify-content: center;
@@ -117,8 +122,8 @@
 .conteiner-footer {
     display: flex;
     justify-content: center;
-    background-color: #afd5ae;
-    background-size: 40px;
+    background-image: url(img/footer.jpg);
+    background-size: 1500px;
 
 }
 
@@ -183,6 +188,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: auto;
 }
 
 .product-plants {
@@ -212,7 +218,8 @@
     font-family: 'BIZ UDPMincho', serif;
     font-size: 20px;
     font-weight: 80px;
-    background-color: #7ac477;
+    background-color: #baf9ad;
+    margin-bottom: 50px;
 }
 
 .conteiner-paisajismo {
@@ -223,9 +230,9 @@
 }
 
 
- 
-.paragraph1 {
-    justify-content: space-around ;
+
+.text2 {
+    justify-content: space-around;
     padding: 15px;
     font-family: 'BIZ UDPMincho', serif;
     font-size: 20px;
@@ -236,4 +243,59 @@
     grid-template-columns: 800px 500px;
     justify-content: space-around;
     margin: 30px;
+}
+
+.conteiner-form {
+    font-family: 'BIZ UDPMincho', serif;
+    padding: 5px 5px;
+    margin: 5px;
+    display: grid;
+    justify-content: space-between;
+
+}
+
+.form-custom {
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.conteiner-blog {
+
+    display: grid;
+    grid-template-columns: 500px 800px;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+
+.text3 {
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.conteiner-tips {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.text4{
+display: grid;
+grid-template-columns: 400px 500px;
+padding: 10px;
+font-family: 'BIZ UDPMincho', serif;
+font-size: 18px;
+text-align: justify; 
+
+}
+
+.conteiner-video {
+    padding: 10px;
 }
