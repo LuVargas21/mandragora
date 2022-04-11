@@ -4,7 +4,7 @@
     top: 0px;
     margin-top: 0px;
     background-size: cover;
-  
+
 }
 
 
@@ -105,64 +105,9 @@
     font-size: 20px;
 }
 
-.footer-fb {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    list-style-position: unset;
-    color: #000000;
-}
 
-.footer-custom {
-    margin: 30px;
-    padding: 20px;
-    font-family: 'BIZ UDPMincho', serif;
-}
 
-.conteiner-footer {
-    display: flex;
-    justify-content: center;
-    background-image: url(img/footer.jpg);
-    background-size: 1500px;
 
-}
-
-.conteiner-social-media {
-    display: flex;
-    justify-content: right;
-    color: #000000;
-}
-
-.social-media-footer {
-    flex-direction: column;
-    color: #000000;
-    list-style: none;
-    justify-content: center;
-
-}
-
-.footer-fb {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #000000;
-}
-
-.booton-whatsapp {
-    display: block;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    right: 30px;
-    bottom: 20px;
-    border-radius: 80px;
-    line-height: 20px;
-    text-align: center;
-    z-index: 999;
-}
-
-/*hasta aca index.html*/
 
 
 .product-home {
@@ -220,6 +165,7 @@
     font-weight: 80px;
     background-color: #baf9ad;
     margin-bottom: 50px;
+    margin: 30px;
 }
 
 .conteiner-paisajismo {
@@ -245,21 +191,6 @@
     margin: 30px;
 }
 
-.conteiner-form {
-    font-family: 'BIZ UDPMincho', serif;
-    padding: 5px 5px;
-    margin: 5px;
-    display: grid;
-    justify-content: space-between;
-
-}
-
-.form-custom {
-    justify-content: space-between;
-    margin: 5px;
-    padding: 5px;
-}
-
 
 
 .conteiner-blog {
@@ -268,6 +199,7 @@
     grid-template-columns: 500px 800px;
     justify-content: space-around;
     margin: 30px;
+    margin-top: 50px;
 }
 
 
@@ -286,16 +218,45 @@
     margin: 10px;
 }
 
-.text4{
-display: grid;
-grid-template-columns: 400px 500px;
-padding: 10px;
-font-family: 'BIZ UDPMincho', serif;
-font-size: 18px;
-text-align: justify; 
+.text4 {
+    display: grid;
+    grid-template-columns: 400px 500px;
+    padding: 10px;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 18px;
+    text-align: justify;
 
 }
 
 .conteiner-video {
     padding: 10px;
+}
+
+
+
+.footer-custom {
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    padding: 3px;
+    margin: 0px;
+    background-color: #baf9ad;
+    color: #19470d;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 12px;
+
+
+}
+
+.conteiner-footer {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
+}
+
+.bootom-whatsapp {
+    justify-content: right;
+    background-color: #baf9ad;
 }
