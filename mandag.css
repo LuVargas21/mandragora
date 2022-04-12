@@ -60,17 +60,18 @@
 
 .menu {
     color: #000000;
-    font-family: 'Shadows Into Light', cursive, sans-serif;
-    display: inline;
+   
 }
 
 .linkListaMenu {
-    color: rgb(0, 0, 0);
+    font-family: 'Antic Slab', serif; 
+    color: #000000;
+    padding: 15px;
 }
 
 .itemListaMenu {
     display: inline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .subtitle2 {
@@ -133,7 +134,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: auto;
+    margin:10px;
 }
 
 .product-plants {
@@ -199,7 +200,7 @@
     grid-template-columns: 500px 800px;
     justify-content: space-around;
     margin: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -227,6 +228,15 @@
     text-align: justify;
 
 }
+
+.title-aboutus{
+    font-family: 'Zeyada', cursive, sans-serif;
+    size: 80px;
+    text-align: center;
+
+
+}
+
 
 .conteiner-video {
     padding: 10px;
