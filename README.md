@@ -1,2 +1,2 @@
-# mandagora
+# mandragora
  Oficial Mandagora site 
