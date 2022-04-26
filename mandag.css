@@ -49,18 +49,22 @@
 
 .title {
     margin-top: auto;
-    padding: 50px;
+    padding: 15px;
     font-size: 60px;
-    margin-bottom: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
     font-family: 'BIZ UDPMincho', serif;
     display: flex;
     justify-content: center;
+
 }
+
+
 
 .subtitle {
     font-size: 30px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 15px;
+    margin-top: 5px;
     font-family: 'Zeyada', cursive, sans-serif;
     display: flex;
     justify-content: center;
@@ -69,20 +73,23 @@
 
 @keyframes subtitle {
     0% {
-        color: #000000;
-        letter-spacing: 15px;
+        letter-spacing: 10px;
+        margin-bottom: -10px;
     }
     33% {
-        letter-spacing: 20px;
+        letter-spacing: 14px;
+        margin-bottom: -10px;
         
     }
     66% { 
-        letter-spacing: 10px;
+        letter-spacing: 18px;
+        margin-bottom: -10px;
         
     }
 
-    100% { color: #000000;
-        letter-spacing: 15px;
+    100% {
+        letter-spacing: 10px;
+        margin-bottom: -10px;
       
     }
 }
@@ -128,13 +135,18 @@
     }
 
     50% {
+        color: #5e8656;
+        font-size: 35px;
+    }
+
+    75% {
         color: #8ac77e;
         font-size: 40px;
     }
 
-    75% {
-        color: #000000;
+    100% {  color: #000000;
         font-size: 30px;
+
     }
 }
 
@@ -161,17 +173,15 @@
 }
 
 
-
-
-
-
 .product-home {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: right;
-
+   
 }
+
+
 
 .product-menu {
     list-style: none;
@@ -189,7 +199,12 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
+    animation: subtitle2 3s infinite;
 }
+
+
+
+
 
 .product-plants {
     color: #000000;
@@ -202,10 +217,16 @@
 }
 
 .product-name {
-    font-size: 30 px;
+    font-size: 15px;
     font-family: 'BIZ UDPMincho', serif;
     text-align: center;
+    margin-top: 5px;
+    padding: 8px;
+    transition: all 2s ease-in-out
+}
 
+.product-name:hover {
+    font-size: 20px;
 }
 
 /* aca comienza servicos.html*/
@@ -234,7 +255,13 @@
     margin: 30px;
 }
 
+.imagen-paisajismo {
+    transition: all 2s ease-in-out;
+}
 
+.imagen-paisajismo:hover{
+
+}
 
 .text2 {
     justify-content: space-around;
