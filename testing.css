@@ -1,0 +1,22 @@
+animation-name: box-fb;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+
+
+@keyframes name  {
+
+    0% {
+        width: 100px;
+    }
+
+    50% {
+        width: 75px;
+    }
+
+    100% {
+        width: 100px ;
+    }
+
+}
