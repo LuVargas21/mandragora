@@ -255,11 +255,14 @@
     margin: 30px;
 }
 
-.imagen-paisajismo {
-    transition: all 2s ease-in-out;
+.imagen-paisajismo img{
+    overflow: hidden;
+    transition: 2s ease-in-out;
 }
 
-.imagen-paisajismo:hover{
+.imagen-paisajismo img:hover{
+    transform: translate3d( 0px, 30px, 0px);
+ 
 
 }
 
